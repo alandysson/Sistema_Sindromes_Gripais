@@ -1,0 +1,61 @@
+/* tela principal */
+
+#page-home{
+  height: 60vw;
+  background-color: #f0f0f5;
+}
+
+#page-home .content{
+  width: 90%;
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-home header .navbar{
+  font-size: 20px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-home main{
+  max-width: 500px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-top: 60px;
+}
+
+#page-home main .center{
+  justify-content: center;
+}
+
+#page-home header a{
+  color: #0BDE59;
+}
+
+#page-home header .on a{
+  padding: 10px;
+}
+
+#page-home header .on a:hover{
+  background-color: black;
+  color: white;
+}
+
+form select{
+  width: 100px;
+}
+
+/* tabela */
+table{
+  font-size: 19px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: white;
+}

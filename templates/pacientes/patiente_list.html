@@ -1,0 +1,25 @@
+{% extends 'pacientes/base.html' %}
+<title>Dados</title>
+{% block content %}
+  {% if patient in patients %}
+    <h1> Lista de pacientes </h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Teste</th>
+        </tr>
+      </thead>
+      <tbody>
+          {% for patient in patients %}
+          <tr>
+            <td>{{patient.name}}</td>
+            <td>{{patient.status}}</td>
+          </tr>
+          {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+  <h2> Não há pacientes registrado </h2>
+  {% endif %}
+{% endblock %}

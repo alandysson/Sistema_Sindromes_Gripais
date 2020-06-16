@@ -1,0 +1,49 @@
+.formu{
+  width: 800px;
+  height: 500px;
+  display: flex;
+  padding: 50px 40px;
+  background-color: white;
+}
+
+.formu form{
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+
+form .field-group{
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.formu h1{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+form label{
+  font-size: 18px;
+}
+
+form input{
+  margin-top: 4px;
+  margin-bottom:4px;
+  background-color: rgb(242, 247, 247);
+}
+
+#botao{
+  width: 120px;
+  height: 40px;
+  background-color: #34cb79;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+  border:0;
+  margin-top: 40px;
+  transition: 400ms;
+  }
